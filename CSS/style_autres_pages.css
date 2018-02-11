@@ -1,0 +1,105 @@
+
+body{
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+background-color: #31c5c1;
+background-image: url('../images/1a.png');
+background-repeat: repeat;
+}
+
+.bloc0{/*concerne la partie centrale, derriere le jeu*/
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+background-color: lightblue;
+border-left: 3px solid darkred;
+border-right: 3px solid darkred;
+padding: 15px;
+text-align: justify;
+font-family: 'Gudea', sans-serif;
+bottom: 0;
+background-image: url('../images/3.png');
+box-shadow: 2px 0px 3px grey;
+}
+
+.blocUn{/*concerne l'emplacement du jeu*/
+margin-left: auto;
+margin-right: auto;
+width: 450px;
+background-image: url('../images/1a.png');
+background-color: #cafdfd;
+border: 1px solid grey;
+border-radius: 5px;
+padding: 10px;
+}
+
+.blocChantier{
+margin-left: auto;
+margin-right: auto;
+text-align: center;	
+}
+
+.bloc3{/*concerne les liens de navigation*/
+text-align: center;
+border-bottom : 2px solid darkred;
+/*border-right : 1px ridge darkred;*/
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 5px;
+box-shadow: 2px 3px 3px grey; /*ombre vers la droite puis ombres vers le bas puis floutage de l'ombre*/
+font-family: 'Architects Daughter', cursive;
+font-weight: bold;
+background-color: #cafdfd;
+background-image: url('../images/1a.png');url('../images/1a.png');
+}
+
+.bloc4{/*concerne les liens de navigation*/
+color: #4596a7;
+text-align: center;
+border-top : 2px solid darkred;
+padding-top: 5px;
+padding-bottom: 5px;
+border-radius: 5px;
+box-shadow: 2px 3px 3px grey; /*ombre vers la droite puis ombres vers le bas puis floutage de l'ombre*/
+font-family: 'Architects Daughter', cursive;
+font-weight: light;
+font-size: 13px;
+background-color: #cafdfd;
+background-image: url('../images/1a.png');
+}
+
+
+a{
+color: darkred;
+text-decoration: none;
+}
+
+a:visited{
+color: #90cacc;
+}
+
+h1{
+text-align: center;
+font-size: 50px;
+font-family: 'Permanent Marker', cursive;
+}
+
+table{
+margin: auto;
+}
+
+h2{
+font-family: 'Architects Daughter', cursive;
+}
+
+#nomscreatrices{/*concerne la mise en valeur de nos noms sur la page contact*/
+font-size: 20px;
+color: #4596a7;
+}
+
+#image{
+margin-left: 100px;
+margin-right: 100px;
+}
+
